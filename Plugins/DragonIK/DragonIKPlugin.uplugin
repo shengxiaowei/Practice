@@ -10,7 +10,7 @@
 	"DocsURL": "https://docs.google.com/document/d/1TmMj3WeOyUmjUOivZCZFtVUqJmAJdJ4tE2Ln3pOBI1s/edit#",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3f3985e9eb40414aaabf645791fa4916",
 	"SupportURL": "codehawk64@gmail.com",
-	"EngineVersion": "4.19.0",
+	"EngineVersion": "4.20.0",
 	"CanContainContent": true,
 	"Installed": true,
 	"Modules": [

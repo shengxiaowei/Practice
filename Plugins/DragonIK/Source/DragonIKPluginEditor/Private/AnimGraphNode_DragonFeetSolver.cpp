@@ -12,30 +12,8 @@
 
 
 
-
-
-
-/* Copyright (C) Gamasome Interactive LLP, Inc - All Rights Reserved
-* Unauthorized copying of this file, via any medium is strictly prohibited
-* Proprietary and confidential
-* Written by Mansoor Pathiyanthra <codehawk64@gmail.com , mansoor@gamasome.com>, July 2018
-*/
-
-#include "AnimGraphNode_DragonFeetSolver.h"
-
-
-
-#include "AnimationGraphSchema.h"
-
-
-
 void UAnimGraphNode_DragonFeetSolver::CreateOutputPins()
 {
-
-	const UAnimationGraphSchema* Schema = GetDefault<UAnimationGraphSchema>();
-//	CreatePin(EGPD_Output, Schema->PC_Struct, FString(), FComponentSpacePoseLink::StaticStruct(), TEXT("Pose"));
-
-
 	CreatePin(EGPD_Output, UAnimationGraphSchema::PC_Struct, FComponentSpacePoseLink::StaticStruct(), TEXT("Pose"));
 }
 

@@ -43,7 +43,7 @@ void FAnimNode_DragonSpineSolver::Update_AnyThread(const FAnimationUpdateContext
 {
 	ComponentPose.Update(Context);
 	ActualAlpha = 0.f;
-	if (IsLODEnabled(Context.AnimInstanceProxy, LODThreshold))
+	if (IsLODEnabled(Context.AnimInstanceProxy))
 	{
 		EvaluateGraphExposedInputs.Execute(Context);
 		// Apply the skeletal control if it's valid

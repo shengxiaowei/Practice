@@ -95,7 +95,7 @@ public:
 		int32 LODThreshold;
 
 
-//	virtual int32 GetLODThreshold() const override { return LODThreshold; }
+	virtual int32 GetLODThreshold() const override { return LODThreshold; }
 
 
 

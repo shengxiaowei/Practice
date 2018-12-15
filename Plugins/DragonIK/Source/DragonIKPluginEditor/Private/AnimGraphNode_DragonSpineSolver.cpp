@@ -12,10 +12,6 @@
 
 void UAnimGraphNode_DragonSpineSolver::CreateOutputPins()
 {
-
-	const UAnimationGraphSchema* Schema = GetDefault<UAnimationGraphSchema>();
-//	CreatePin(EGPD_Output, Schema->PC_Struct, FString(), FComponentSpacePoseLink::StaticStruct(), TEXT("Pose"));
-
 	CreatePin(EGPD_Output, UAnimationGraphSchema::PC_Struct, FComponentSpacePoseLink::StaticStruct(), TEXT("Pose"));
 }
 
@@ -45,6 +41,7 @@ FString UAnimGraphNode_DragonSpineSolver::GetNodeCategory() const
 FLinearColor UAnimGraphNode_DragonSpineSolver::GetNodeTitleColor() const
 {
 	return FLinearColor(10.0f / 255.0f, 127.0f / 255.0f, 248.0f / 255.0f);
+
 }
 
 

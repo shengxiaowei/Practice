@@ -1,8 +1,0 @@
-{
-	"BuildId": "4212847",
-	"Modules": 
-	{
-		"DragonIKPlugin": "UE4Editor-DragonIKPlugin.dll",
-		"DragonIKPluginEditor": "UE4Editor-DragonIKPluginEditor.dll"
-	}
-}

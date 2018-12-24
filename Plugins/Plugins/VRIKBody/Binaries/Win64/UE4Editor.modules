@@ -1,0 +1,8 @@
+{
+	"BuildId": "4212847",
+	"Modules": 
+	{
+		"VRIKBodyEditor": "UE4Editor-VRIKBodyEditor.dll",
+		"VRIKBodyRuntime": "UE4Editor-VRIKBodyRuntime.dll"
+	}
+}

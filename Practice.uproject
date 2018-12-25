@@ -33,6 +33,11 @@
 			"Name": "DragonIKPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3f3985e9eb40414aaabf645791fa4916"
+		},
+		{
+			"Name": "VRIKBody",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c7314be54a7d49939c2dabc13fe1ffff"
 		}
 	]
 }

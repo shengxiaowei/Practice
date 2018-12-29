@@ -30,7 +30,7 @@ void ALogOutputTest::BeginPlay()
 		UE_LOG(LogTemp, Error, TEXT("Error"));
 	}
 	
-
+	UE_LOG(SXWLogPrint,Warning,TEXT("shengxiaoweihahahahahahah"));
 	
 }
 

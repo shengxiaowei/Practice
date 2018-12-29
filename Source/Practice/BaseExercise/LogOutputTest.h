@@ -4,7 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "LogMacros.h"
 #include "LogOutputTest.generated.h"
+
+DEFINE_LOG_CATEGORY(SXWLogPrint);
+
+//DEFINE_LOG_CATEGORY_CLASS
+//DEFINE_LOG_CATEGORY_STATIC
+//DECLARE_LOG_CATEGORY_EXTERN()
+
 
 UCLASS()
 class PRACTICE_API ALogOutputTest : public AActor

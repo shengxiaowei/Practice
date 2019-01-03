@@ -3,6 +3,8 @@
 #include "LogOutputTest.h"
 #include "Engine/Engine.h"
 
+//在CPP中定义声明的MyCategoryName
+DEFINE_LOG_CATEGORY(MyCategoryName);
 
 // Sets default values
 ALogOutputTest::ALogOutputTest()
@@ -16,9 +18,9 @@ ALogOutputTest::ALogOutputTest()
 void ALogOutputTest::BeginPlay()
 {
 	Super::BeginPlay();
-	TCHAR * MyTChar = TEXT("shengxiaowei");
-	UE_LOG(LogTemp, Log, TEXT("%s BeginPlay"), TEXT("MyNameIsShengxiaowei"));
-	UE_LOG(LogTemp,Warning,TEXT("%d Beginplay"), MyTChar);
+	TCHAR * MyTChar = TEXT("shengxxxxxxxxxxxxxxxxxxxxxiaowei");
+	UE_LOG(LogTemp, Log, TEXT("%s BeginPlay"), TEXT("MyNameIsShsssssssssssssxxxxxxxxxxxxxxengxiaowei"));
+	UE_LOG(LogTemp,Warning,TEXT("%d Begxxxxxxxxxxxxxxxxxxxxxinplay"), MyTChar);
 
 
 	if (GEngine)
@@ -30,7 +32,7 @@ void ALogOutputTest::BeginPlay()
 		UE_LOG(LogTemp, Error, TEXT("Error"));
 	}
 	
-	UE_LOG(SXWLogPrint,Warning,TEXT("shengxiaoweihahahahahahah"));
+	UE_LOG(MyCategoryName, SetColor,TEXT("shengxiaoweihahahahahahah"));
 	
 }
 

@@ -26,7 +26,7 @@ ASeekerRole::ASeekerRole()
 	VRCamera->SetupAttachment(CameraRoot);
 
 	MotionControllerLeft->MotionSource = TEXT("Left");
-	MotionControllerLeft->MotionSource = TEXT("Right");
+	MotionControllerRight->MotionSource = TEXT("Right");
 
 	MotionControllerLeft->SetupAttachment(CameraRoot);
 

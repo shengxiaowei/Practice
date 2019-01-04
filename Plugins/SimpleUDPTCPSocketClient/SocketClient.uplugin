@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 9,
+	"VersionName": "1.8",
+	"FriendlyName": "SimpleTCPUDPSocketClient",
+	"Description": "TCP and UDP Blueprint Socket Client",
+	"Category": "Sockets",
+	"CreatedBy": "Socke",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5d4ddd5493ce4d2295ef9be6c67eff82",
+	"SupportURL": "",
+	"EngineVersion": "4.19.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SocketClient",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"IOS",
+				"Android",
+				"Linux"
+			]
+		}
+	]
+}

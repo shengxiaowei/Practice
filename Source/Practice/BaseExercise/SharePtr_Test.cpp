@@ -4,7 +4,6 @@
 #include<iostream>
 #include "LogOutputTest.h"
 #include <memory>
-#include "../Plugins/Experimental/AlembicImporter/Source/ThirdParty/Alembic/hdf5/hl/tools/gif2h5/gif.h"
 using namespace std;
 // Sets default values
 ASharePtr_Test::ASharePtr_Test()
